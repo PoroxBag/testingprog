@@ -1,0 +1,23 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /workspace
+plugins: locust-2.47.0
+collecting ... collected 4 items
+
+test_webui_smoke.py::test_bmcweb_https_alive PASSED                      [ 25%]
+test_webui_smoke.py::test_webui_backend_account_service PASSED           [ 50%]
+test_webui_smoke.py::test_webui_backend_session_login PASSED             [ 75%]
+test_webui_smoke.py::test_webui_backend_managers_bmc PASSED              [100%]
+
+=============================== warnings summary ===============================
+test_webui_smoke.py::test_bmcweb_https_alive
+test_webui_smoke.py::test_webui_backend_account_service
+test_webui_smoke.py::test_webui_backend_session_login
+test_webui_smoke.py::test_webui_backend_managers_bmc
+  /usr/local/lib/python3.13/dist-packages/urllib3/connectionpool.py:1129: InsecureRequestWarning: Unverified HTTPS request is being made to host '127.0.0.1'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+------- generated xml file: /workspace/ci-reports/webui/junit-smoke.xml --------
+======================== 4 passed, 4 warnings in 8.25s =========================

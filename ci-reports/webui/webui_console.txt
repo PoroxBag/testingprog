@@ -1,0 +1,4 @@
+Selenium suite skipped (RUN_SELENIUM_WEBUI=0).
+На образе romulus статика WebUI на / часто отсутствует; CI проверяет
+Redfish backend WebUI (test_webui_smoke.py). Для полного Selenium
+поднимите webui-vue (например :8000) и задайте OPENBMC_WEBUI_URL + RUN_SELENIUM_WEBUI=1.

@@ -1,0 +1,25 @@
+[2026-10-23 15:28:14,150] DESKTOP-MS4BHE9/INFO/locust.main: Starting Locust 2.47.0
+[2026-10-23 15:28:14,151] DESKTOP-MS4BHE9/INFO/locust.main: Run time limit set to 30 seconds
+[2026-10-23 15:28:14,152] DESKTOP-MS4BHE9/INFO/locust.runners: Ramping to 5 users at a rate of 1.00 per second
+[2026-10-23 15:28:18,157] DESKTOP-MS4BHE9/INFO/locust.runners: All users spawned: {"OpenBMCUser": 2, "PublicApiUser": 3} (5 total users)
+[2026-10-23 15:28:43,970] DESKTOP-MS4BHE9/INFO/locust.main: --run-time limit reached, shutting down
+[2026-10-23 15:28:44,059] DESKTOP-MS4BHE9/INFO/locust.main: Shutting down (exit code 0)
+Type     Name                                                                          # reqs      # fails |    Avg     Min     Max    Med |   req/s  failures/s
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+GET      OpenBMC: GET PowerState                                                            7     0(0.00%) |   1401     667    4443    810 |    0.24        0.00
+GET      OpenBMC: GET Systems/system                                                        7     0(0.00%) |   2004     335    7073    860 |    0.24        0.00
+GET      Public: JSONPlaceholder /posts                                                    31     0(0.00%) |    159     110     520    130 |    1.05        0.00
+GET      Public: wttr.in Novosibirsk                                                       18     0(0.00%) |    607     551    1031    580 |    0.61        0.00
+--------|----------------------------------------------------------------------------|-------|-------------|-------|-------|-------|-------|--------|-----------
+         Aggregated                                                                        63     0(0.00%) |    630     110    7073    520 |    2.13        0.00
+
+Response time percentiles (approximated)
+Type     Name                                                                                  50%    66%    75%    80%    90%    95%    98%    99%  99.9% 99.99%   100% # reqs
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+GET      OpenBMC: GET PowerState                                                               810   1100   1300   1300   4400   4400   4400   4400   4400   4400   4400      7
+GET      OpenBMC: GET Systems/system                                                           860   1300   3000   3000   7100   7100   7100   7100   7100   7100   7100      7
+GET      Public: JSONPlaceholder /posts                                                        130    130    130    130    140    470    520    520    520    520    520     31
+GET      Public: wttr.in Novosibirsk                                                           580    590    600    610    680   1000   1000   1000   1000   1000   1000     18
+--------|--------------------------------------------------------------------------------|--------|------|------|------|------|------|------|------|------|------|------|------
+         Aggregated                                                                            520    580    610    700   1000   1300   4400   7100   7100   7100   7100     63
+

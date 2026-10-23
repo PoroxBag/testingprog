@@ -1,0 +1,10 @@
+OPENBMC_WEBUI_URL=https://127.0.0.1:2443
+HTTP/2 401 
+www-authenticate: Basic
+strict-transport-security: max-age=31536000; includeSubdomains
+pragma: no-cache
+cache-control: no-store, max-age=0
+x-content-type-options: nosniff
+date: Fri, 23 Oct 2026 15:27:58 GMT
+content-length: 0
+

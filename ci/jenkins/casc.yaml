@@ -1,0 +1,30 @@
+jenkins:
+  systemMessage: "OpenBMC Lab7 CI/CD — Jenkins in Docker (admin/admin)"
+  numExecutors: 2
+  mode: NORMAL
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: "admin"
+          password: "admin"
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: true
+
+unclassified:
+  location:
+    url: http://127.0.0.1:8080/
+
+jobs:
+  - script: |
+      pipelineJob('openbmc-cicd') {
+        description('Lab7 CI/CD: QEMU → Redfish API tests → WebUI tests → Locust. Workspace: /workspace')
+        definition {
+          cps {
+            // sandbox off: Job DSL читает Jenkinsfile с диска (/workspace)
+            sandbox(false)
+            script(new File('/workspace/Jenkinsfile').getText('UTF-8'))
+          }
+        }
+      }

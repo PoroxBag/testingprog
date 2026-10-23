@@ -1,0 +1,4 @@
+Locust exit_code=0
+users=5 spawn=1 runtime=30s
+BMC_URL=https://127.0.0.1:2443
+2026-10-23T15:28:44+00:00

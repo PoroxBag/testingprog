@@ -1,0 +1,245 @@
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish
+{
+  "@odata.id": "/redfish/v1",
+  "@odata.type": "#ServiceRoot.v1_15_0.ServiceRoot",
+  "AccountService": {
+    "@odata.id": "/redfish/v1/AccountService"
+  },
+  "Cables": {
+    "@odata.id": "/redfish/v1/Cables"
+  },
+  "CertificateService": {
+    "@odata.id": "/redfish/v1/CertificateService"
+  },
+  "Chassis": {
+    "@odata.id": "/redfish/v1/Chassis"
+  },
+  "EventService": {
+    "@odata.id": "/redfish/v1/EventService"
+  },
+  "Fabrics": {
+    "@odata.id": "/redfish/v1/Fabrics"
+  },
+  "Id": "RootService",
+  "JsonSchemas": {
+    "@odata.id": "/redfish/v1/JsonSchemas"
+  },
+  "Links": {
+    "ManagerProvidingService": {
+      "@odata.id": "/redfish/v1/Managers/bmc"
+    },
+    "Sessions": {
+      "@odata.id": "/redfish/v1/SessionService/Sessions"
+    }
+  },
+  "Managers": {
+    "@odata.id": "/redfish

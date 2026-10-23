@@ -1,0 +1,4 @@
+WebUI smoke exit_code=0
+WebUI selenium exit_code=0 RUN_SELENIUM_WEBUI=0
+OPENBMC_WEBUI_URL=https://127.0.0.1:2443
+2026-10-23T15:28:12+00:00

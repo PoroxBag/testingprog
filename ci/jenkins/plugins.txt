@@ -1,0 +1,13 @@
+configuration-as-code:latest
+job-dsl:latest
+workflow-aggregator:latest
+git:latest
+junit:latest
+ws-cleanup:latest
+pipeline-stage-view:latest
+timestamper:latest
+docker-workflow:latest
+plain-credentials:latest
+credentials:latest
+script-security:latest
+antisamy-markup-formatter:latest

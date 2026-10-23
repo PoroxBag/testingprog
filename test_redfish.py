@@ -247,6 +247,9 @@ def ipmi_sensor_list_raw() -> str:
     return proc.stdout
 
 
+# note: TestRedfishVsIpmi ловит RuntimeError и делает pytest.skip / fail
+
+
 def parse_ipmi_sensors(output: str) -> list[dict[str, Any]]:
     rows: list[dict[str, Any]] = []
     for line in output.splitlines():
@@ -466,8 +469,14 @@ class TestRedfishVsIpmi:
             redfish_sensors = find_cpu_temperature_sensors(session)
             raw = ipmi_sensor_list_raw()
             ipmi_rows = parse_ipmi_sensors(raw)
-        except (RuntimeError, requests.RequestException) as exc:
+        except RuntimeError as exc:
+            # В CI-контейнере ipmitool может отсутствовать — не валим весь пайплайн
+            if "ipmitool" in str(exc).lower():
+                pytest.skip(str(exc))
             logger.exception("Не удалось получить датчики")
+            pytest.fail(str(exc))
+        except requests.RequestException as exc:
+            logger.exception("Не удалось получить датчики Redfish")
             pytest.fail(str(exc))
 
         ipmi_cpu = [
